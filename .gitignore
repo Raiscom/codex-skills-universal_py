@@ -1,0 +1,14 @@
+# OS / editor clutter
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor settings
+.idea/
+.vscode/
+
+# Temp / backup files
+*.tmp
+*.bak
+*.swp
+*.swo

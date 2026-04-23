@@ -1,16 +1,47 @@
 # Codex Skills Pack for Python, C++, SEO Parsers, and SQL/MCP Analytics
 
-This repository contains a practical set of reusable **Codex-oriented skills and task prompts** for engineering work in Python and C++, with a focus on:
+Reusable **Codex-oriented skills and task prompts** for Python, C++, SEO parsing, and SQL/MCP analytics workflows.
 
-- production-grade Python development;
-- mixed Python/C++ architecture;
-- SEO data collection and parser development;
-- CSV-to-SQL ingestion pipelines;
-- MCP-based analytical access for AI over structured data.
+This pack is designed to make Codex behave more like a disciplined engineer:
 
-The goal of this pack is to make Codex behave more like a disciplined engineer: plan first, write modular code, avoid unnecessary token waste, and produce code that is easier to run, test, extend, and maintain.
+- plan before coding;
+- keep implementations modular;
+- avoid context waste;
+- favor testable, production-oriented output;
+- use specialized prompts when the task becomes narrow.
 
----
+## Quick Start
+
+1. Start with the main skill: [`skills/Universal_Py_Cpp_Codex_SKILL_v1.1.0.md`](skills/Universal_Py_Cpp_Codex_SKILL_v1.1.0.md)
+2. Use examples for task phrasing: [`skills/py-cpp-companion-examples.md`](skills/py-cpp-companion-examples.md)
+3. Add a specialized prompt when needed:
+   - [`prompts/yandex-serp-parser-prompt.md`](prompts/yandex-serp-parser-prompt.md)
+   - [`prompts/seo-csv-sql-mcp-pipeline-prompt.md`](prompts/seo-csv-sql-mcp-pipeline-prompt.md)
+
+## What Is Included
+
+- One universal engineering skill for Python and mixed Python/C++ work.
+- One companion examples file for prompt phrasing.
+- Two specialized prompts for recurring SEO and analytics tasks.
+
+## Repository Structure
+
+```text
+skills/
+  Universal_Py_Cpp_Codex_SKILL_v1.1.0.md
+  py-cpp-companion-examples.md
+
+prompts/
+  yandex-serp-parser-prompt.md
+  seo-csv-sql-mcp-pipeline-prompt.md
+```
+
+## Repository Files
+
+- [`skills/Universal_Py_Cpp_Codex_SKILL_v1.1.0.md`](skills/Universal_Py_Cpp_Codex_SKILL_v1.1.0.md) - main universal Codex skill.
+- [`skills/py-cpp-companion-examples.md`](skills/py-cpp-companion-examples.md) - example task framings and companion prompts.
+- [`prompts/yandex-serp-parser-prompt.md`](prompts/yandex-serp-parser-prompt.md) - specialized prompt for Yandex SERP competitor keyword research.
+- [`prompts/seo-csv-sql-mcp-pipeline-prompt.md`](prompts/seo-csv-sql-mcp-pipeline-prompt.md) - specialized prompt for CSV -> SQL -> MCP analytics workflows.
 
 ## Why this repository exists
 
@@ -27,20 +58,6 @@ This repository solves that by separating the workflow into:
 1. **A universal base skill** for broad engineering tasks.
 2. **Companion examples** that show how to invoke that skill in practice.
 3. **Specialized prompts** for narrow, recurring tasks such as SEO SERP parsing or CSV → SQL → MCP analytics.
-
----
-
-## Repository structure
-
-```text
-skills/
-  Universal_Py_Cpp_Codex_SKILL_v1.1.0.md
-  py-cpp-companion-examples.md
-
-prompts/
-  yandex-serp-parser-prompt.md
-  seo-csv-sql-mcp-pipeline-prompt.md
-```
 
 ---
 
