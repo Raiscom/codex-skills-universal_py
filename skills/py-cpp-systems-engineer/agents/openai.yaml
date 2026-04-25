@@ -1,3 +1,7 @@
-display_name: Py/C++ Systems Engineer
-short_description: Build, refactor, test, and harden Python-first and mixed Python/C++ systems.
-default_prompt: Use this skill for Python or mixed Python/C++ engineering work. Inspect the repository, make a compact plan, implement with tests or smoke checks, and report the important commands and risks.
+interface:
+  display_name: "Py/C++ Systems Engineer"
+  short_description: "Build and harden Python/C++ systems."
+  default_prompt: "Use $py-cpp-systems-engineer to build, refactor, test, or harden a Python or mixed Python/C++ project."
+
+policy:
+  allow_implicit_invocation: true
